@@ -45,7 +45,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
             <!-- docker 插件 begin -->
-            <plugin>
+           <!-- <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>1.0.0</version>
@@ -60,7 +60,7 @@
                         </resource>
                     </resources>
                 </configuration>
-            </plugin>
+            </plugin>-->
             <!-- docker 插件 end -->
         </plugins>
         <!--打包后文件名称-->
