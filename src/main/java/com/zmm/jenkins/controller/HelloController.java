@@ -16,6 +16,6 @@ public class HelloController {
 	@RequestMapping("/")
 	public String sayHello(){
 		//修改返回的字符串的内容
-		return "第1次调试! Hello jenkins, " + new Date();
+		return "第2次调试! Hello jenkins, " + new Date();
 	}
 }
